@@ -8,7 +8,16 @@
       <SelectionState runConfigName="Class_Demo_1_ScrollView">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Class_Demo_One_Toolbar">
+      <SelectionState runConfigName="Class_Demo_One_Rating_Bar">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneSplashScreenMain">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneSplashScreenSecondary">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneSplashScreenMain (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

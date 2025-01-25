@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Cse225_codes</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="quote_one">\"If you win, you live. If you lose, you die. If you don’t fight, you can’t win!\" \n\n~ Eren Yeager</string>
+    <string name="eren_yeager">Eren Yeager</string>
+    <string name="start_progress">Start Progress</string>
+    <string name="reset_progress">Reset Progress</string>
 </resources>
