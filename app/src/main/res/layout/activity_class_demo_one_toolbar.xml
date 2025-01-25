@@ -12,9 +12,9 @@
         android:id="@+id/toolBarOne"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/black"
+        android:background="@color/slate_950"
         app:title="Toolbar Demo"
-        app:titleTextColor="@color/white"
+        app:titleTextColor="#fff"
         android:elevation="10dp"
         app:navigationIcon="?attr/homeAsUpIndicator"/>
 

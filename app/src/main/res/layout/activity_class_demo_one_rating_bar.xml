@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Class_Demo_One_Rating_Bar">
+
+    <RatingBar
+        android:id="@+id/classRatingBar1"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:numStars="6"
+        android:padding="5dp"
+        android:progressTint="@color/red_500"
+        android:layout_marginVertical="10dp"
+        android:rating="4.5" />
+
+    <Button
+        android:id="@+id/ratingButton1"
+        android:padding="5dp"
+        android:text="@string/rate_us"
+        android:backgroundTint="@color/slate_900"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+
+    <RatingBar
+        android:layout_marginVertical="10dp"
+        android:id="@+id/classRatingBar2"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:numStars="6"
+        android:padding="5dp"
+        android:progressTint="@color/sky_300"
+        android:progressBackgroundTint="@color/slate_900"
+        android:rating="4.5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:padding="2sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ratings"
+        android:layout_marginBottom="100dp"
+        android:textSize="35sp"
+        android:textColor="@color/slate_900"/>
+
+
+</LinearLayout>
