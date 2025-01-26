@@ -5,4 +5,10 @@
     <string name="eren_yeager">Eren Yeager</string>
     <string name="start_progress">Start Progress</string>
     <string name="reset_progress">Reset Progress</string>
+    <string name="show_toast_label">Show toast</string>
+    <string name="show_toast_using_builder_label">Show toast using Builder</string>
+    <string name="show_error_toast_label">Show Error toast</string>
+    <string name="show_warning_toast_label">Show Warning toast</string>
+    <string name="show_success_toast_label">Show Success Toast</string>
+    <string name="show_toast_with_image_label">Show toast with image</string>
 </resources>
