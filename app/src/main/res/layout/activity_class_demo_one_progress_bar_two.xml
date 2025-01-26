@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_37"
+    tools:context=".ClassDemoOneProgressBarTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp"
+        android:background="@drawable/transparent_dark_green"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar Horizontal"
+            android:textColor="@color/lime_50"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTwo"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="264dp"
+            android:layout_height="32dp"
+            android:layout_marginVertical="10dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressBackgroundTint="@color/slate_900"
+            android:progressTint="@color/lime_50" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0 / 100"
+            android:textColor="@color/slate_50"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnShowTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/slate_900"
+            android:text="@string/start_progress"
+            android:textColor="@color/lime_400"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnResetTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/slate_900"
+            android:text="@string/reset_progress"
+            android:textColor="@color/lime_400"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:backgroundTint="@color/slate_900"
+    android:elevation="6dp"
+    android:gravity="center"
+    >
+
+    <!-- ImageView for the icon -->
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- TextView for the custom toast message -->
+    <TextView
+        android:id="@+id/toast_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="@color/slate_50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>

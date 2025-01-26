@@ -44,5 +44,9 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     // Add the CircleImageView dependency
     implementation(libs.circleimageview)
-
+    // Add StyleableToast dependency
+    implementation("io.github.muddz:styleabletoast:2.4.0")
+    implementation("com.github.5AbhishekSaxena.toaster-android:toaster:2.3.1")
+    implementation("com.github.5AbhishekSaxena.toaster-android:toaster-ktx:2.3.1")
+    implementation("com.github.GrenderG:Toasty:1.5.2")
 }
