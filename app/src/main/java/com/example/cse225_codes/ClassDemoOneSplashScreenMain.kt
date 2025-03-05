@@ -13,10 +13,12 @@ class ClassDemoOneSplashScreenMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
         setContentView(R.layout.activity_class_demo_one_splash_screen_main)
 
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, ClassDemoOneSplashScreenSecondary::class.java)
+
             startActivity(intent)
             finish()
         }, 5000)

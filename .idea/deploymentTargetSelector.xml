@@ -5,13 +5,22 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Class_Demo_One_Rating_Bar">
+      <SelectionState runConfigName="ClassDemoOneSplashScreenMain">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneCustomToast1StyleableToast1">
+      <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneCustomToast1StyleableToast1 (1)">
+      <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout4">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout4 (1)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneFooter1ListView">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ClassDemoOneFooter1ListView (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
