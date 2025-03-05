@@ -18,6 +18,7 @@ class Class_Demo_One_Rating_Bar : AppCompatActivity() {
 
         var ratingBar1 = findViewById<RatingBar>(R.id.classRatingBar1)
         var ratingBar2 = findViewById<RatingBar>(R.id.classRatingBar2)
+        var ratingBar3 = findViewById<RatingBar>(R.id.classRatingBar3)
         var ratingButton1 = findViewById<Button>(R.id.ratingButton1)
 
         ratingButton1.setOnClickListener {
@@ -27,6 +28,14 @@ class Class_Demo_One_Rating_Bar : AppCompatActivity() {
         }
 
         ratingBar2.onRatingBarChangeListener = RatingBar.OnRatingBarChangeListener { ratingBar, rating, fromUser ->
+            val totalStars = "Total Stars: " + ratingBar.numStars
+            val rating = "Rating: " + ratingBar.rating
+            val feedback = findViewById<TextView>(R.id.textView1)
+            feedback.text = "$totalStars $rating"
+            Toast.makeText(this, "$totalStars $rating".trimIndent(), Toast.LENGTH_SHORT).show()
+        }
+
+        ratingBar3.onRatingBarChangeListener = RatingBar.OnRatingBarChangeListener { ratingBar, rating, fromUser ->
             val totalStars = "Total Stars: " + ratingBar.numStars
             val rating = "Rating: " + ratingBar.rating
             val feedback = findViewById<TextView>(R.id.textView1)

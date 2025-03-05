@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Cse225_codes"
         tools:targetApi="31">
         <activity
+            android:name=".ClassDemoOneFooter2BottomNav1"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneFooter1ListView"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneCustomToast2ToastLayout4"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneColorChangeToolbar"
+            android:exported="false" />
+        <activity
+            android:name=".ClassTaskOneToolbar1"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneScrollViewTask"
+            android:exported="true" />
+        <activity
             android:name=".ClassDemoOneCustomToast3Dependency1"
             android:exported="true" />
         <activity
