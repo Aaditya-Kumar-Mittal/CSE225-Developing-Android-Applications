@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Cse225_codes"
         tools:targetApi="31">
         <activity
+            android:name=".CA1PracticeUnit1CustomToast1"
+            android:exported="true" />
+        <activity
+            android:name=".CA1PracticeUnit1ProgressBar1"
+            android:exported="true" />
+        <activity
+            android:name=".CA1PracticeUnit1BackgroundColorChangeToolbar1"
+            android:exported="true" />
+        <activity
+            android:name=".CA1PracticeUnit1RatingBar1"
+            android:exported="true" />
+        <activity
+            android:name=".CA1PracticeUnit1ScrollView1"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneSimpleScrollView1"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoTwoAlarmManager1"
+            android:exported="true" />
+
+        <receiver android:name=".ClassDemoTwoAlarmManager1AlarmBroadcast1" />
+
+        <activity
             android:name=".ClassDemoOneFooter2BottomNav1"
             android:exported="true" />
         <activity
@@ -23,7 +47,7 @@
             android:exported="true" />
         <activity
             android:name=".ClassDemoOneColorChangeToolbar"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ClassTaskOneToolbar1"
             android:exported="true" />

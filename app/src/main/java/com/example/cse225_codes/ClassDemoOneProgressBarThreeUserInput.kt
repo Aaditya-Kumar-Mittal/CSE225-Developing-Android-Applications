@@ -45,6 +45,7 @@ class ClassDemoOneProgressBarThreeUserInput : AppCompatActivity() {
 
             // Get the progress bar value
             var i = progressBar1.progress
+            i = input.text.toString().toInt()
 
             // Create a thread to update the progress bar
             Thread {
@@ -62,7 +63,7 @@ class ClassDemoOneProgressBarThreeUserInput : AppCompatActivity() {
                         }
                     }
                     try {
-                        //Try ensures the thread doesn'
+                        //Try ensures the thread doesn't crash
                         Thread.sleep(100) // Updated sleep duration for smoother progress
                     } catch (e: InterruptedException) {
                         // If the thread is interrupted, print the stack trace

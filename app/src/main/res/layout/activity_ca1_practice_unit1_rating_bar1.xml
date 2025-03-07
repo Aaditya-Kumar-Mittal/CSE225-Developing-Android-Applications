@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lime_400"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CA1PracticeUnit1RatingBar1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Rating Bar Demo for CA"
+        android:textColor="@color/slate_900"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/caRatingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/slate_900"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/slate_50"
+        android:progressTint="@color/red_500"
+        android:rating="1"
+        android:stepSize="1" />
+
+    <Button
+        android:id="@+id/ratingButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/slate_900"
+        android:text="Fetch Rating"
+        android:textColor="@color/slate_50"
+        android:textSize="15sp" />
+
+    <RatingBar
+        android:id="@+id/caRatingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/red_500"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/slate_50"
+        android:progressTint="@color/slate_900"
+        android:rating="1"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/ratingTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="My Ratings"
+        android:textColor="@color/slate_900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

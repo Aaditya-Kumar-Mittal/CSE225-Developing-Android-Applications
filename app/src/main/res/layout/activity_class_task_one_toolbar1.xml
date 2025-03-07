@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ClassTaskOneToolbar1">
 
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_marginTop="20dp"
+        android:id="@+id/toolBarThree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue_400"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:logo="@drawable/baseline_shopping_cart_24"
-        app:title="Buy and sell Store"
-        app:titleTextColor="@color/slate_900"
-        />
+        android:layout_marginTop="15dp"
+        android:background="@color/amber_400"
+        app:logo="@drawable/baseline_home_24"
+        app:title="CA1 Simple Title Bar"
+        app:titleTextColor="@color/slate_900" />
 
 </LinearLayout>
