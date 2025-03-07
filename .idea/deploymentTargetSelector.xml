@@ -8,19 +8,19 @@
       <SelectionState runConfigName="ClassDemoOneSplashScreenMain">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout2">
+      <SelectionState runConfigName="CA1PracticeUnit1ProgressBar1">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="CA1PracticeUnit1ProgressBar1 (1)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="CA1PracticeUnit1ProgressBar1 (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout4">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneCustomToast2ToastLayout4 (1)">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneFooter1ListView">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="ClassDemoOneFooter1ListView (1)">
+      <SelectionState runConfigName="CA1PracticeUnit1CustomToast1">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

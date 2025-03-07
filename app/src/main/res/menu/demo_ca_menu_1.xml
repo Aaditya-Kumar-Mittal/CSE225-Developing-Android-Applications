@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menuOption1"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/lime_400"
+        android:title="Option 1"
+        android:titleTextColor="@color/red_500"
+        android:tooltipText="Option 1"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menuOption2"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/lime_400"
+        android:title="Option 2"
+        android:titleTextColor="@color/green_500"
+        android:tooltipText="Option 2"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText"
+
+        />
+
+    <item
+        android:id="@+id/menuOption3"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/lime_400"
+        android:title="Option 3"
+        android:titleTextColor="@color/yellow_500"
+        android:tooltipText="Option 3"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menuOption4"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/lime_400"
+        android:title="Option 4"
+        android:titleTextColor="@color/blue_500"
+        android:tooltipText="Option 4"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText" />
+
+</menu>
