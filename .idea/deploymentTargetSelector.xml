@@ -8,6 +8,9 @@
       <SelectionState runConfigName="CA1PracticeUnit2AlarmManger1Main">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="CA1PracticeUnit1Footer2ListView1">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
