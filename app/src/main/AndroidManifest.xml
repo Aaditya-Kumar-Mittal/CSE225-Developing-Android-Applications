@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cse225_codes"
         tools:targetApi="31">
+        <activity
+            android:name=".ClassDemoOneNotificationView1"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoOneNotificationManager1"
+            android:exported="true" />
         <activity
             android:name=".CA1PracticeUnit1Footer2ListView1"
             android:exported="true" />
