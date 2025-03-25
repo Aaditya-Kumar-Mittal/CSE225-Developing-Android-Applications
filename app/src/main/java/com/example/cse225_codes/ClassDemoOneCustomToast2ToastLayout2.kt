@@ -25,7 +25,7 @@ class ClassDemoOneCustomToast2ToastLayout2 : AppCompatActivity() {
                 this,
                 layoutInflater,
                 R.layout.toast_custom_layout2,
-                R.drawable.img_7,  // Correct way to pass the drawable resource ID
+                R.drawable.img_8,  // Correct way to pass the drawable resource ID
                 "This is a custom toast"
             )
         }

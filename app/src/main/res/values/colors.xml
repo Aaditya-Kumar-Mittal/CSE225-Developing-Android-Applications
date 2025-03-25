@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="firstGradientColor">#F472B6</color>
+    <color name="secondGradientColor">#EC4899</color>
+    <color name="thirdGradientColor">#DB2777</color>
+    <color name="fourthGradientColor">#BE185D</color>
+    <color name="fifthGradientColor">#9D174D</color>
+    <color name="colorTranslucentGray">#C8E5E5E5</color>
+    <color name="colorTransparent">#00000000</color>
+
+
     <!-- Gray Scale -->
     <color name="gray_50">#F9FAFB</color>
     <color name="gray_100">#F3F4F6</color>
