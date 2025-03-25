@@ -23,6 +23,10 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -49,4 +53,9 @@ dependencies {
     implementation("com.github.5AbhishekSaxena.toaster-android:toaster:2.3.1")
     implementation("com.github.5AbhishekSaxena.toaster-android:toaster-ktx:2.3.1")
     implementation("com.github.GrenderG:Toasty:1.5.2")
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation(libs.lottie)
+    implementation("com.github.rubygarage:emotion-rating-view:v1.0.1")
+    implementation ("com.github.sujithkanna:smileyrating:2.0.0")
 }

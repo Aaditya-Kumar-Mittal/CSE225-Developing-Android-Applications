@@ -5,10 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CA1PracticeUnit2AlarmManger1Main">
+      <SelectionState runConfigName="ExtraSplashScreenUsingAPI1 (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CA1PracticeUnit1Footer2ListView1">
+      <SelectionState runConfigName="ExtraBottomNavigationBarWithFragments (2)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ExtraSplashScreen2">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ExtraSplashScreen2 (1)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ExtraRatingBar1">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

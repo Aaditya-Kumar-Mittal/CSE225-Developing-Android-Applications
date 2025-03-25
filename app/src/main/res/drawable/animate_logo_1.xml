@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/logo_2">
+
+    <target
+        android:name="animationGroup1"
+        android:animation="@animator/logo_animator1" />
+
+</animated-vector>

@@ -1,9 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Cse225_codes" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Cse225_codes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.Cse225_codes" parent="Base.Theme.Cse225_codes" />
+    <style name="Theme.App.ExtraSplash1" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/slate_900</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_1</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Cse225_codes</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+    </style>
+
+    <style name="Theme.App.ExtraSplash2" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/slate_900</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Cse225_codes</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animate_logo_1</item>
+    </style>
+
+    <style name="ExtraRatingBar1Theme" parent="Base.Theme.Cse225_codes">
+        <item name="faceColor">@color/slate_900</item>
+        <item name="gradeColor">@color/yellow_300</item>
+        <item name="zeroGradeGradientColors">@array/garageZeroGradeGradientColors</item>
+        <item name="oneGradeGradientColors">@array/garageOneGradeGradientColors</item>
+        <item name="twoGradeGradientColors">@array/garageTwoGradeGradientColors</item>
+        <item name="threeGradeGradientColors">@array/garageThreeGradeGradientColors</item>
+        <item name="fourGradeGradientColors">@array/garageFourGradeGradientColors</item>
+        <item name="fiveGradeGradientColors">@array/garageFiveGradeGradientColors</item>
+    </style>
 </resources>
