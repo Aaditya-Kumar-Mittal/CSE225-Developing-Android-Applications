@@ -57,5 +57,4 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation(libs.lottie)
     implementation("com.github.rubygarage:emotion-rating-view:v1.0.1")
-    implementation ("com.github.sujithkanna:smileyrating:2.0.0")
 }
