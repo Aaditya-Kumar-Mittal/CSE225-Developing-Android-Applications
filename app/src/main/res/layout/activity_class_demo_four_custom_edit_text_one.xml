@@ -5,6 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/slate_900"
     tools:context=".ClassDemoFourCustomEditTextOne">
+
+    <com.example.cse225_codes.ClassDemoFourCustomEditTextOneClassOne
+        android:layout_margin="25dp"
+        android:background="@color/blue_200"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.example.cse225_codes.ClassDemoFourCustomEditTextOneClassOne>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

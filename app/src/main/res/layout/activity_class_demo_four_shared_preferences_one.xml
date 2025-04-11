@@ -5,6 +5,74 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:padding="25dp"
     tools:context=".ClassDemoFourSharedPreferencesOne">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/lime_200"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shared Preferences in Android"
+                android:textColor="@color/slate_900"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/firstNameInput1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:ems="10"
+                android:hint="Enter your first name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/lastNameInput1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:hint="Enter your last name"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/saveButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Data" />
+
+            <Button
+                android:id="@+id/clearButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Data" />
+
+            <Button
+                android:id="@+id/getButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retrieve Data" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

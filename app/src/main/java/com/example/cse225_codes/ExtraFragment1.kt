@@ -1,4 +1,6 @@
 package com.example.cse225_codes
 
-class ExtraFragment1 {
+import androidx.fragment.app.Fragment
+
+class ExtraFragment1 : Fragment(R.layout.extra_fragment_layout_1)  {
 }
