@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExtraRatingBar1">
+      <SelectionState runConfigName="ExtraProgressBarsOne">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoFiveFileOperationsOne">
+      <SelectionState runConfigName="ExtraSwitchButtonOne (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExtraRatingBar1 (1)">
+      <SelectionState runConfigName="ExtraSwitchButtonOne (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoFiveExternalStorageFileInputOutputOne">
+      <SelectionState runConfigName="ExtraProgressBarsOne (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoFiveExternalStorageImageInputOne">
+      <SelectionState runConfigName="ExtraProgressBarsOne (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

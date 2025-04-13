@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="progress_colors1">
+        <item>@color/red_500</item>
+        <item>@color/blue_500</item>
+        <item>@color/green_500</item>
+        <item>@color/yellow_500</item>
+    </array>
+</resources>
