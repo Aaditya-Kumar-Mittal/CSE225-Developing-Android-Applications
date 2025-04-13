@@ -57,4 +57,5 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation(libs.lottie)
     implementation("com.github.rubygarage:emotion-rating-view:v1.0.1")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 }
