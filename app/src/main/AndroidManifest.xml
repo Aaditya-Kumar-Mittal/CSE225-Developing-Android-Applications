@@ -25,6 +25,13 @@
         android:theme="@style/Theme.Cse225_codes"
         tools:targetApi="31">
         <activity
+            android:name=".ExtraNavigationDrawerTwo"
+            android:exported="true"
+            android:theme="@style/Theme.NavigationDrawer" />
+        <activity
+            android:name=".ExtraNavigationDrawerOneSlideableMenu"
+            android:exported="true" />
+        <activity
             android:name=".ExtraProgressBarsOne"
             android:exported="true" />
         <activity

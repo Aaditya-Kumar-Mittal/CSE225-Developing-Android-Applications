@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="lavender">#8692f7</color>
+
     <color name="firstGradientColor">#F472B6</color>
     <color name="secondGradientColor">#EC4899</color>
     <color name="thirdGradientColor">#DB2777</color>
