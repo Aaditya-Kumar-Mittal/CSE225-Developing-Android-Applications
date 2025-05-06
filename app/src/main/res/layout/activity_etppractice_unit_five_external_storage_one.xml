@@ -7,10 +7,10 @@
     android:background="@color/orange_200"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ClassDemoFiveExternalStorageFileInputOutputOne">
+    tools:context=".ETPPracticeUnitFiveExternalStorageOne">
 
     <EditText
-        android:id="@+id/inputName1"
+        android:id="@+id/etpExternalStorageInput1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -19,7 +19,7 @@
         android:padding="15dp" />
 
     <EditText
-        android:id="@+id/inputPassword1"
+        android:id="@+id/etpExternalStorageInput2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -28,9 +28,10 @@
         android:padding="15dp" />
 
     <Button
-        android:id="@+id/saveDataExternal1"
+        android:id="@+id/etpExternalStorageSaveButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="Button" />
+
 </LinearLayout>

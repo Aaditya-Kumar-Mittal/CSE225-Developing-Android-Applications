@@ -5,27 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExtraNavigationDrawerOneSlideableMenu">
+      <SelectionState runConfigName="ETPPracticeUnitSixSwipeViewOne">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExtraNavigationDrawerTwo">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-04-14T17:47:13.342171600Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=YHCABYKRS4YH5DV8" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="ExtraSharedPreferencesOneLoginScreen">
+      <SelectionState runConfigName="ETPPracticeUnitSixTabViewOne">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExtraNavigationDrawerOneSlideableMenu (1)">
+      <SelectionState runConfigName="ETPPracticeUnitSixNavigationDrawerOne">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassDemoSixTabView">
+      <SelectionState runConfigName="ETPPracticeUnitTwoNotificationManagerOne">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ETPPracticeUnitTwoAlarmManagerOne">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

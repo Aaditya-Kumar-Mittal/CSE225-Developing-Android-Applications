@@ -1,8 +1,11 @@
 package com.example.cse225_codes
 
-import android.app.*
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.app.RemoteInput
 import android.content.ContentResolver
-import android.content.Context
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.graphics.Color
@@ -16,6 +19,7 @@ import androidx.cardview.widget.CardView
 import androidx.core.net.toUri
 
 class ClassDemoOneNotificationManager1 : AppCompatActivity() {
+
     // Notification components
     private lateinit var notificationManager1: NotificationManager
     private lateinit var notificationChannel1: NotificationChannel

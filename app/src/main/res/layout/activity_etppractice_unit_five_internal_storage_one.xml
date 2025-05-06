@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ETPPracticeUnitFiveInternalStorageOne">
+
+    <EditText
+        android:id="@+id/etpInternalStorageInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/yellow_100"
+        android:hint="Enter Some Text"
+        android:padding="15dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/etpInternalStorageReadText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Read Text From Storage"
+        android:textColor="@color/slate_900"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/etpWriteInternalStorage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write" />
+
+    <Button
+        android:id="@+id/etpReadInternalStorage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read" />
+
+</LinearLayout>
