@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ETPPracticeUnitTwoAlarmManagerOne">
+
+    <EditText
+        android:id="@+id/etpAlarmSlot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/slate_500"
+        android:hint="Enter slot to set alarm"
+        android:padding="15dp"
+        android:textColor="@color/slate_900"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/etpAlarmStart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Start Alarm" />
+
+    <Button
+        android:id="@+id/etpAlarmRepeat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Repeat Alarm" />
+
+    <Button
+        android:id="@+id/etpAlarmCancel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Cancel Alarm" />
+
+
+</LinearLayout>

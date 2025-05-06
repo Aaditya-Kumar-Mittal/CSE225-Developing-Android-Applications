@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/yellow_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ETPPracticeUnitOneProgressBarOne">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="ETP Progress Bar"
+        android:textColor="@color/slate_900"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/etpPB1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:minHeight="20dp"
+        android:progress="0"
+        android:progressBackgroundTint="@color/colorWhite"
+        android:indeterminate="false"
+        android:progressTint="@color/red" />
+
+    <TextView
+        android:id="@+id/etpProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:textColor="@color/slate_900"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/etpStartProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Progress" />
+
+    <Button
+        android:id="@+id/etpResetProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Progress" />
+
+    <ProgressBar
+        android:id="@+id/etpPB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:minHeight="100dp"
+        android:indeterminate="true"
+        android:progressTint="@color/red" />
+
+
+</LinearLayout>

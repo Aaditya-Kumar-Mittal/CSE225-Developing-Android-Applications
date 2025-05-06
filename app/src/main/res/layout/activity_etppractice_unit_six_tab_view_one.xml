@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ETPPracticeUnitSixTabViewOne">
+
+    <!-- Colorful Tab Layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/etpTabLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/yellow_100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabBackground="@drawable/tab_selector_background"
+        app:tabIndicatorColor="@color/slate_900"
+        app:tabIndicatorHeight="4dp"
+        app:tabRippleColor="@color/slate_200"
+        app:tabSelectedTextColor="@color/slate_900"
+        app:tabTextColor="@color/slate_900"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!-- ViewPager2 for Tabs -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/etpViewPager2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="12dp"
+        android:background="@color/slate_100"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etpTabLayout1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

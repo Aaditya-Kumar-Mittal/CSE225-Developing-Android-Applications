@@ -25,8 +25,96 @@
         android:theme="@style/Theme.Cse225_codes"
         tools:targetApi="31">
         <activity
-            android:name=".ClassDemoSixTabView"
+            android:name=".ETPPracticeUnitTwoJobSchedulerOne"
             android:exported="true" />
+        <service
+            android:name=".ETPPracticeUnitTwoJobSchedulerServiceOne"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <activity
+            android:name=".ETPPracticeUnitTwoAlarmManagerOne"
+            android:exported="true" />
+
+        <receiver android:name=".ETPPracticeUnitTwoAlarmManagerBroadcastOne" />
+
+        <activity
+            android:name=".ETPPracticeUnitTwoNotificationManagerViewOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitTwoNotificationManagerOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitSixNavigationDrawerOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitSixTabViewOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitSixSwipeViewOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitFiveExternalStorageReadOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitFiveExternalStorageOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitFiveInternalStorageOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitFiveSharedPreferencesTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitFiveSharedPreferencesOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitThreeDateTimePickerOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitThreeTimePickerOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitThreeDatePickerOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitThreeDynamicFragmentsDataTransferOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitThreeDynamicFragmentsOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitThreeStaticFragmentsOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitOneToolbarOne"
+            android:exported="true" />
+        <activity
+            android:name=".ETPPracticeUnitOneFooterOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitOneCustomToastOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitOneRatingBarOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitOneProgressBarOne"
+            android:exported="false" />
+        <activity
+            android:name=".ETPPracticeUnitOneSplashScreenOne"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ETPPracticeUnitOneScrollViewOne"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDemoSixTabView"
+            android:exported="false" />
         <activity
             android:name=".ExtraSharedPreferencesOneHomeScreen"
             android:exported="false" />
@@ -101,13 +189,7 @@
             android:theme="@style/ExtraRatingBar1Theme" />
         <activity
             android:name=".ExtraSplashScreen2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".ExtraSplashScreenUsingAPI1"
             android:exported="true"
